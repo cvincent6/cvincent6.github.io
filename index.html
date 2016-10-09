@@ -40,6 +40,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                <a class="navbar-brand" href="#">My Portfolio</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -66,6 +67,10 @@
 
     <div class="row">
 
+        <div>
+            <h1 class="myname">Colin Vincent</h1>
+        </div>
+
         <!-- About Me Header -->
         <div class="row">
             <div class="col-lg-12">
@@ -74,6 +79,17 @@
             </div>
         </div>
 
+        <div class="col-lg-12 portfolio-item">
+            <div class="col-md-6">
+                <p class="intro">Welcome to my website! My name is Colin Vincent and I am a 4th year Combined Electrical and Computer Engineering Student at Northeastern University. I am passionate about electronics and embedded systems and I am currently searching for my 3rd co-op placement.</p>
+            </div>
+
+            <div class="col-md-6">
+                <a href="1">
+                   <img class="img-responsive" src="img/me.jpg" height="900" width="500" alt="">
+                </a>
+            </div>
+        </div>
 
         <!-- /.row -->
 
@@ -94,11 +110,16 @@
                 </a>
             </div>
             <div class="col-md-6">
-                <p> At Lumenpulse I worked on several microcontroller projects as part of the firmware team. I also spent time workng with Altium for schematic design and board layout. My main projects were Lumenfacade Rev 6, CBOX and Lumentone. 
-                </p>
-                <p>I designed the PCB layout for the Lumenfacade board through several iterations. This included several hardware changes in the schematics, and significant changes to the board layout. </p>
-                <p>The CBOX directs communication over DMX and RDM. I worked both of these protocols to fix exsiting issues with interference coming into the receiver.</p>
-                <p>The picture to the left is from a R&D project to incorportate an OLED into a lumentone light controller. Usign the STM32F030R8 development board I prototyped a set up to control lights over DMX with an interactive menu displayed on the OLED screen.
+                </p>At Lumenpulse I worked on several microcontroller projects as part of the firmware team. I also spent time working with Altium for schematic design and board layout. My main projects were Lumenfacade Rev 6, CBOX and Lumentone.</p>
+
+                <p>I designed the PCB layout for the newest revision of the Lumenfacade White HO and RO boards through several iterations. This included several hardware changes in the schematics, and significant changes to the board layout. </p>
+
+                <p>The CBOX directs communication over DMX and RDM. I worked both of these protocols to fix existing issues with interference coming into the receiver.</p>
+
+                <p>The picture to the left is from an R&D project to incorporate an OLED into a Lumentone light controller. Using the STM32F030R8 development board I prototyped a set up to control lights over DMX with an interactive menu displayed on the OLED screen.</p>
+
+                <p>I also worked with an existing test jig to accommodate a new control card. This required several hardware changes on the PCB layout and new firmware for the STM microcontroller.</p>
+
         </div>
         <!-- /.row -->
 
@@ -114,10 +135,15 @@
         <!-- Draper Content -->
         <div class="col-lg-12 portfolio-item">
             <div class="col-md-6">
-                <p> At Draper I worked with the Sensors and Imaging Systems group. I was responsible for the electrical system in a pod test set up. I also worked with two other co-ops on Wireless Sensor Network Research.
-                </p>
+                <p>At Draper Laboratory I worked with the Sensors and Imaging Systems group. I was responsible for the electrical system in a pod test set up. I also worked with two other co-ops on Wireless Sensor Network Research.</p>
+
                 <p>I spent a lot of time working with OrCAD capture to review PCB schematics and order parts for the manufacturer. I also used OrCAD to compile wiring diagrams for the pod project.</p>
-                <p>Researching wireless sensor networks with the other co-ops led our team to develop a project focused on camera based networks. After spending a significant amount of time reading existing journal publications we chose to focus on surveillance using a network of cameras.</p>
+
+                <p>Researching wireless sensor networks led our team to develop a project focused on camera based networks. After spending a significant amount of time reading existing journal publications we chose to focus on surveillance using a network of cameras.</p>
+
+                <p>We developed a project for a proof of concept for 3-D reconstruction using a network of cameras. This was done with Raspberry Pi’s with camera modules. My contribution included the hardware selection and the shell scripting to communicate with the Pi’s and transfer images to the host computer. This resulted in a conference paper presented in May 2016. The paper can be found here: http://ieeexplore.ieee.org/document/7568905/?reload=true “</p>
+
+
             </div>
             <div class="col-md-6">
                 <a href="#">
@@ -144,8 +170,7 @@
                 </a>
             </div>
             <div class="col-md-6">
-                <h1 class="page"> Hello
-                </h1>
+                <p> At NUWC I worked with REMUS autonomous underwater vehicles. I was part of the payload integration team and spent a lot of time in the lab assisting with vehicle testing. I worked with OrCAD to make wiring diagrams for some of the hardware we were working to integrate in the REMUS. </p>
             </div>
         </div>
 
@@ -158,71 +183,82 @@
             </div>
         </div>
 
-        <!-- Projects Content -->
-        <div class="col-lg-12 portfolio-item">
-            <div class="col-md-6">
-                <h1 class="page"> Android App
-                </h1>
-            </div>
-            <div class="col-md-6">
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
                 <a href="#">
-                    <img class="img-responsive" src="img/app.jpg" height="900" width="500" alt="">
+                    <img class="projects" src="img/app.jpg" alt="">
                 </a>
-            </div>
-        </div>
-
-        <div class="col-lg-12 portfolio-item">
-            <div class="col-md-6">
-                <a href="#">
-                    <img class="img-responsive" src="img/led_placeholder.jpg" height="900" width="500" alt="">
-                </a>
+                <h3>
+                    <a href="#">Android App</a>
+                </h3>
+                <p>I built this app to concatenate three .wav files and play the result given a specific code. There are 19 built in wav files and the app can create a output given any combination. The generated sound is used to trigger underwater liftbags.</p>
             </div>
 
-            <div class="col-md-6">
-                <h1 class="page"> LED Cube
-                </h1>
-            </div>
-        </div>
-
-        <div class="col-lg-12 portfolio-item">
-            <div class="col-md-6">
-                <h1 class="page"> Interests
-                </h1>
-            </div>
-            <div class="col-md-6">
+            <div class="col-md-4 portfolio-item">
                 <a href="#">
-                    <img class="img-responsive" src="img/interests.jpg" height="900" width="500" alt="">
+                    <img class="projects" src="img/led_placeholder.jpg" alt="">
                 </a>
+                <h3>
+                    <a href="#">LED Cube</a>
+                </h3>
+                <p>Using an Arduino Pro I connected several WS2812 addressable LEDs to the serial output. Then using a Bluetooth module I connected the Arduino to my Raspberry Pi using python. I then pulled NOAA weather information so I could adjust the color and intensity of the LEDs depending on the current weather in Boston. I covered the hardware with a cube I made out of Plexiglas that I frosted with sandpaper.  Some of the code is up on GitHub.</p>
+
+            </div>
+
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="projects" src="img/interests.jpg" alt="">
+                </a>
+                <h3>
+                    <a href="#">Interests</a>
+                </h3>
+                <p>I enjoy Snowboarding, Lacrosse, Rock Climbing and Woodworking. I taught Snowboarding in High School for 2 years at Yawgoo Valley in Rhode Island. I played Lacrosse through high school and I continue to play over the summer when in a few tournaments.</p> 
             </div>
         </div>
-        
         <!-- /.row -->
+
+        
+        <!-- Contact Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Contact</h1>
+            </div>
+        </div>
+
+        <div class="contact">
+            <p><a href="mailto:vincent.co@huksy.neu.edu">vincent.co@husky.neu.edu</a>
+            </p>
+            <p>Click on the icons below for my resume or a link to one of my accounts!
+            </p>
+        </div>
+
+        <!-- Icon Row -->
+        <div class="row_icons">
+
+            <a href="img/Colin_Vincent_Resume.pdf" download>
+                <img border="0" src="img/pdf.jpg" alt="resumepic" width="100" height="100"%>
+            </a>
+
+            <a href="https://github.com/cvincent6" link>
+                <img border="0" src="img/25231.svg" alt="github" width="100" height="100" %>
+            </a>
+
+            <a href="https://www.linkedin.com/in/colinvincent6" link>
+                <img border="0" src="img/linkedin.png" alt="linkedin" width="100" height="100" %>
+            </a>
+
+            <a href="https://www.facebook.com/colin.vincent.37" link>
+                <img border="0" src="img/facebook.png" alt="facebook" width="100" height="100" %>
+            </a>
+
+        </div>
+        <!-- /. row -->
 
         <!-- Footer -->
         <footer>
             
             <!-- ICON ROW -->
-
-            <div class="row_icons">
-
-                    <a href="Colin_Vincent_Resume.pdf" download>
-                        <img border="0" src="img/pdf.jpg" alt="resumepic" width="100" height="100"%>
-                    </a>
-
-                    <a href="https://github.com/cvincent6" link>
-                        <img border="0" src="img/25231.svg" alt="github" width="100" height="100" %>
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/colinvincent6" link>
-                        <img border="0" src="img/linkedin.png" alt="linkedin" width="100" height="100" %>
-                    </a>
-
-                    <a href="https://www.facebook.com/colin.vincent.37" link>
-                        <img border="0" src="img/facebook.png" alt="facebook" width="100" height="100" %>
-                    </a>
-
-            </div>
-
             <div class="row">
                 <div class="col-lg-12">
                     <p>Copyright &copy; Colin Vincent 2016</p>

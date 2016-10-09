@@ -8,6 +8,12 @@ body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
+.myname {
+	color:#C00010;
+	font-family: "Circuit";
+	text-align: center;
+	font-size: 100px;
+}
 .bg-primary a{
 	background-color:#FFFFFF;
 }
@@ -28,6 +34,35 @@ body {
 	display: flex;
 	justify-content: space-between;
 }
+
+.row_icons p{
+	justify-content: center;
+}
+
+.projects{
+	height:300px;
+}
+.img-responsive {
+	width: 900px;
+}
+.intro {
+	font-size: 24px;
+}
+
+.contact {
+	font-size: 20px;
+	text-align: center;
+}
+
+.
 footer {
     margin: 50px 0;
+    text-align: center;
+}
+
+<style type="text/css">
+@font-face {
+    font-family: "Circuit";
+    src: fonts/circuit.ttf format("truetype");
+    font-size: 100px;
 }
