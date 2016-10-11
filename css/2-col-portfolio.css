@@ -36,7 +36,8 @@ body {
 }
 
 .projects{
-	height:300px;
+	max-height:350px;
+	max-width: 350px;
 }
 .img-responsive {
 	width: 900px;
