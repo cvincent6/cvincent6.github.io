@@ -59,6 +59,8 @@ footer {
 <style type="text/css">
 @font-face {
     font-family: "Circuit";
-    src: url("../fonts/circuit.ttf") format("truetype");
+    src: url("../fonts/CIRCUIT_.ttf") format("truetype"),
+    	 url("../fonts/CIRCUIT_.woff") format("woff"),
+    	 url("../fonts/CIRCUIT_.woff2") format("woff2");
     font-size: 100px;
 }
